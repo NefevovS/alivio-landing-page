@@ -6,12 +6,38 @@
 .header-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-.header-logo {
+
+.header-nav a {
+  transition: 0.3s ease color;
+}
+.header-nav a:hover {
+  color: #01996d;
 }
 .header-nav {
   font-weight: 500;
+  color: #292929;
+  margin-left: 172px;
+}
+.header-nav ul {
+  display: flex;
+  column-gap: 70px;
+}
+
+.header-login > * + * {
+  margin-left: 35px;
+}
+.header-login a {
+  color: #000;
+  transition: 0.3s ease color;
+}
+.header-login a:hover {
+  color: #01996d;
 }
 .header-login {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.signIn {
 }

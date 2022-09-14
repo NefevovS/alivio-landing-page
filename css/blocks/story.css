@@ -1,0 +1,41 @@
+.story {
+  background-color: #245852;
+  color: white;
+  padding: 229px 0 176px;
+}
+
+.storyRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story-content {
+  margin-right: 30px;
+  max-width: 580px;
+}
+
+.story-content-head {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+
+  margin-bottom: 33px;
+}
+.story-content-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  margin-bottom: 57px;
+}
+.story-content-btn {
+}
+.btn {
+}
+.btn-big {
+}
+.story-video {
+}
