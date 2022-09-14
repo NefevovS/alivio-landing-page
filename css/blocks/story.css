@@ -20,7 +20,6 @@
   font-weight: 700;
   font-size: 50px;
   line-height: 157%;
-
   margin-bottom: 33px;
 }
 .story-content-text {
@@ -31,11 +30,27 @@
   line-height: 157%;
   margin-bottom: 57px;
 }
-.story-content-btn {
-}
-.btn {
-}
-.btn-big {
-}
 .story-video {
+  width: 895px;
+  position: relative;
+}
+
+.story-video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.story-video-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
+}
+
+.story-video-object {
 }
