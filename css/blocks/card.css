@@ -44,8 +44,6 @@
 }
 .card ul {
   font-size: 10.62px;
-  list-style: disc;
-  list-style-position: inside;
 }
 .card li {
   list-style: disc;
@@ -59,4 +57,10 @@
 }
 .card ul li + li {
   margin-top: 20px;
+}
+
+@media (max-width: 499px) {
+  .card {
+    max-width: 296px;
+  }
 }

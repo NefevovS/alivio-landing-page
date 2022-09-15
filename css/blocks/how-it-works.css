@@ -95,3 +95,28 @@
   height: auto;
   object-fit: cover;
 }
+@media (max-width: 1399px) {
+  .how-it-works {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .how-it-works-header {
+    flex-direction: column;
+  }
+
+  .how-it-works-subtitle {
+    font-size: 45px;
+  }
+  .how-it-works-header-content {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 1389px) {
+  .step:nth-child(2) {
+    padding-top: 0;
+  }
+  .step:nth-child(3) {
+    padding-top: 0;
+  }
+}

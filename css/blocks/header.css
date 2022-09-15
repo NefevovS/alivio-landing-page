@@ -21,15 +21,17 @@
 }
 .header-nav ul {
   display: flex;
-  column-gap: 70px;
 }
-
+.header-nav li + li {
+  padding-left: 70px;
+}
 .header-login > * + * {
   margin-left: 35px;
 }
 .header-login a {
   color: #000;
   transition: 0.3s ease color;
+  margin-top: -1px;
 }
 .header-login a:hover {
   color: #01996d;
@@ -39,5 +41,26 @@
   display: flex;
   align-items: center;
 }
-.signIn {
+
+@media (max-width: 1199px) {
+  .header-nav {
+    margin-left: 50px;
+  }
+  .header-nav li + li {
+    padding-left: 50px;
+  }
+  .header-row {
+    justify-content: space-between;
+  }
+
+  .header-login {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-nav,
+  .header-login {
+    display: none;
+  }
 }

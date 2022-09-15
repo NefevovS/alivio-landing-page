@@ -23,3 +23,12 @@ a .btn-big {
   min-height: 65px;
   line-height: 65px !important;
 }
+@media (max-width: 991px) {
+  .btn-big,
+  a .btn-big {
+    min-height: 45px;
+    line-height: 46px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
