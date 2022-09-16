@@ -32,6 +32,7 @@
   color: #000;
   transition: 0.3s ease color;
   margin-top: -1px;
+  display: contents;
 }
 .header-login a:hover {
   color: #01996d;
